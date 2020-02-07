@@ -1,0 +1,72 @@
+html{
+    overflow-x:hidden;
+}
+header{
+    background:  #ff0500;
+    display: flex;
+    justify-content: center;
+}
+header nav{
+    display: flex;
+    flex-direction: row;
+}
+header button{
+    height: 2rem;
+    margin-left: 1rem;
+    margin-bottom: 0.3rem;
+}
+
+button{
+    border-radius: 0 !important;
+}
+
+nav{
+    height: 60px;
+}
+
+nav a{
+    padding-right: 0.5rem;
+    font-size: 1rem !important;
+    margin: 0 !important;
+    color: black;
+}
+nav a:hover{
+    color: #ff0500;
+}
+.input-group{
+    position: relative;
+    bottom: 35px;
+    left: 860px;
+}
+.input-group span{
+    position: absolute;
+    top: 10px;
+    left: 65px;
+}
+.input-group input{
+    width: 85px;
+}
+.input-group input:focus{
+    position: relative;
+    right: 860px;
+    width: 950px;
+}
+.semi-div{
+    font-size: 0.8rem;
+    color: black;
+}
+figcaption a{
+    font-size: 1.2rem;
+    line-height: 1rem;
+    color: black;
+}
+figcaption a:hover{
+    color: black;
+    text-decoration-color: #ff0500;
+}
+.container-content-x{
+    background: #f4f5f7;
+}
+.section-child{
+    height: 500px;
+}
