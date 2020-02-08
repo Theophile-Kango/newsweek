@@ -30,8 +30,23 @@ nav a{
     margin: 0 !important;
     color: black;
 }
-nav a:hover{
-    color: #ff0500;
+nav a i{
+    font-size: 1.5rem;
+    color: grey;
+    margin-left: 0.7rem;
+}
+
+nav a:hover, nav a i:hover{
+    color: #ff0500 !important;
+    text-decoration: none;
+}
+footer a{
+    color: gray !important;
+    font-size: 0.8rem !important;
+}
+footer a:hover{
+    color: black !important;
+    text-decoration: none;
 }
 .input-group{
     position: relative;
@@ -55,12 +70,20 @@ nav a:hover{
     font-size: 0.8rem;
     color: black;
 }
-figcaption a{
+div a, .next-img a, .second-next-img {
     font-size: 1.2rem;
     line-height: 1rem;
     color: black;
 }
-figcaption a:hover{
+.second-next-img{
+    font-size: 0.8rem;
+    line-height: 1rem;
+}
+.second-next-img:hover{
+    text-decoration: none;
+    color: #ff0500;
+}
+div a:hover, .next-img a:hover {
     color: black;
     text-decoration-color: #ff0500;
 }
@@ -70,3 +93,47 @@ figcaption a:hover{
 .section-child{
     height: 500px;
 }
+.section-child-2{
+    height: 400px;
+}
+.next2-img img{
+    width: 40%;
+}
+.next2-img a{
+    font-size: 0.8rem;
+}
+h6 span{
+    background: #ff0500;
+    padding: 0.2rem;
+    color: white;
+}
+h6 #different{
+    background: white;
+    color: #ff0500;
+}
+#above{
+    position: absolute;
+    top: 90px;
+    left: 100px;
+}
+.before-footer{
+    background: #ff0500;
+    border: none;
+    color: white;
+    cursor: pointer;
+}
+.images{
+    width: 16% !important;
+
+}
+
+.myclass{
+    width: 90%; 
+    position: relative;
+    left: 60px;
+}
+.div-height{
+    height: 220px;
+}
+
+
