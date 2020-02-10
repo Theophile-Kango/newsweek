@@ -14,26 +14,33 @@
 </head>
 
 <body>
-    <header class="container-fluid">
-        <div class="container d-flex justify-content-between">
-            <div class="d-flex align-items-end">
-                <a class="navbar-brand text-white" href="#">Thu, Feb 06, 2020</a>
+    <header class="navbar navbar-expand-lg mb-3">
+        <div class="container-fluid">
+            <div class="collapse navbar-collapse" id="navbarCollapse">
+                <a href="#" class="navbar-brand d-flex align-items-baseline mt-5 text-white mr-3">Thu, Feb 06, 2020</a>
             </div>
-            <div>
-                <a class="nav navbar-nav" href="#">
-                    <img src="img/Newsweek_Logo.svg.png" class="col-md-6 mx-auto" alt="Newsweek_Logo">
-                </a>
-            </div>
-            <div class="d-flex align-items-baseline mt-5">
-                <a class="text-uppercase text-white" href="#">Sign&nbsp;in</a>
-                <button type="button" class="btn btn-light btn-group btn-group-sm text-uppercase text-danger">subscribe
-                    ></button>
+            <div class="navbar-nav lg-auto d-flex flex-row">
+                <div class="navbar-nav">
+                    <a href="#" class="nav-item nav-link">
+                        <img src="img/Newsweek_Logo.svg.png"
+                            class="col-md-8 mx-auto img-fluid d-flex justify-content-center" alt="Newsweek_Logo">
+                    </a>
+                </div>
+                <div class="d-flex align-items-baseline mt-5">
+                    <a class="text-uppercase text-white" href="#">Sign&nbsp;in</a>
+                    <button type="button"
+                        class="btn btn-light btn-group btn-group-sm text-uppercase text-danger">subscribe
+                        ></button>
+                </div>
+
+                <a href="#" class="navbar-brand d-lg-none d-flex align-items-baseline mt-5 pl-3 text-white"><i
+                        class="fas fa-bars"></i></a>
             </div>
         </div>
     </header>
-    <nav class="container-fluid navbar navbar-default border-bottom" role="navigation">
+    <nav class="container-fluid d-none d-lg-block  navbar navbar-default border-bottom" role="navigation">
         <div class="navbar-header font-weight-bold">
-            <a class="navbar-brand border-right text-center" href="#">U.S.</a>
+            <a class="navbar-brand border-right text-center active" href="#">U.S.</a>
             <a class="navbar-brand border-right text-center" href="#">World</a>
             <a class="navbar-brand border-right" href="#">Business</a>
             <a class="navbar-brand border-right" href="#">Tech & Science</a>
@@ -51,11 +58,13 @@
             </div>
             <span class="fa fa-search form-control-feedback"></span>
         </div>
+
+        </div>
     </nav>
 
     <div class="container-fluid">
         <div class="row">
-            <div class="col">
+            <div class="col-lg-3 col-md-5">
                 <h6 class="text-secondary font-weight-bold pt-3">FEATURED STORIES</h6>
                 <img src="img/navy-medicine-san-diego.webp" class="img-fluid" alt="medecine">
                 <div class="mb-2">
@@ -132,7 +141,7 @@
                     </div>
                 </div>
             </div>
-            <div class="col-5">
+            <div class="col-lg-5 col-md-7">
                 <h6 class="text-secondary font-weight-bold pt-3">TOP STORY</h6>
                 <img class="img-fluid" src="img/russia-us-military-coronavirus-disinformation.webp" alt="russia">
                 <div class="mb-2">
@@ -300,7 +309,7 @@
                 </div>
                 <hr>
             </div>
-            <div class="col">
+            <div class="col-lg-4 col-md-12">
                 <div class="pb-3 border-bottom">
                     <h6 class="text-secondary font-weight-bold pt-3">OPINION</h6>
                     <img class="pull-left pr-3" src="img/jennifer-n-victor.webp" alt="jennifer-n-victor">
@@ -349,95 +358,101 @@
                     </p>
                 </div>
                 <h6 class="text-secondary font-weight-bold pt-3">LATEST NEWS</h6>
-                <div class="next-img next2-img">
+
+                <div class="next-img next2-img next3-img">
                     <img class="pull-left pr-3" src="img/state-union.webp" alt="state-union">
                     <a href="#" class="font-weight-bold">Fox Host: Trump Hasn't Done Anything as Bad as Ripping Up SOTU
                         Speech</a>
                 </div>
                 <hr>
-                <div class="next-img next2-img">
+                <div class="next-img next2-img next3-img">
                     <img class="pull-left pr-3" src="img/bernie-sanders.webp" alt="bernie-sanders">
                     <a href="#" class="font-weight-bold">
                         Bernie Sanders Calls Out Pete Buttigieg And Mike Bloomberg
-                        &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+
                     </a>
                     <br>
                 </div>
                 <hr>
-                <div class="next-img next2-img">
+                <div class="next-img next2-img next3-img">
                     <img class="pull-left pr-3" src="img/oprah-winfrey-says-gayle-king-has-received-death-threats.webp"
                         alt="oprah-winfrey-says-gayle-king-has-received-death-threats">
                     <a href="#" class="font-weight-bold">Oprah Winfrey Says Gayle King Has Received Death Threats Over
                         Kobe Bryant</a>
                 </div>
                 <hr>
-                <div class="next-img next2-img">
+                <div class="next-img next2-img next3-img">
                     <img class="pull-left pr-3" src="img/power-season-6-episode-15-tariq-tasha.webp"
                         alt="power-season-6-episode-15-tariq-tasha">
                     <a href="#" class="font-weight-bold">'Power' Season 6, Episode 15 Preview: Tariq or Tasha Kill Ghost
                         in Finale</a>
                 </div>
                 <hr>
-                <div class="next-img next2-img">
+                <div class="next-img next2-img next3-img">
                     <img class="pull-left pr-3" src="img/fashion-week.webp" alt="fashion-week">
                     <a href="#" class="font-weight-bold">Will New York Fashion Week Be Free of Pejorative "Gypsy"
                         Labels?</a>
                 </div>
                 <hr>
-                <div class="next-img next2-img">
+                <div class="next-img next2-img next3-img">
                     <img class="pull-left pr-3" src="img/wombat.webp" alt="wombat">
                     <a href="#" class="font-weight-bold">'Hero' Wombats Are Saving Other Animals From Drought by Digging
                         Craters</a>
                 </div>
                 <hr>
-                <div class="next-img next2-img">
+
+                <div class="next-img next2-img next3-img">
                     <img class="pull-left pr-3" src="img/giannis-antetokounmpo.webp" alt="jennifer-n-victor">
                     <a href="#" class="font-weight-bold">
                         Bucks' Giannis Antetokounmpo Continues Impressive Run
-                        &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-                        &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+
                     </a>
                 </div>
                 <br>
-                <div class="border mb-3">
-                    <img class="img-fluid border" src="img/capture4.PNG" alt="captur">
-                    <div class="p-4 mb-2">
-                        <a class="font-weight-bold" href="#">
-                            Saudi Arabia Accelerates Ahead
-                        </a>
-                        <p>
-                            With interest from international investors up 70 percent in 2019, Saudi Arabia is becoming
-                            an investment powerhouse—a
-                            transformation supported by its flourishing financial services industry and rapidly
-                            expanding private sector. Read more
-                        </p>
+                
+                <div class="d-flex justify-content-center row">
+                    <div class="border col-lg-12 col-md-7 mb-3">
+                        <img class="img-fluid" src="img/capture4.PNG" alt="captur">
+                        <div class="p-4 mb-2">
+                            <a class="font-weight-bold" href="#">
+                                Saudi Arabia Accelerates Ahead
+                            </a>
+                            <p>
+                                With interest from international investors up 70 percent in 2019, Saudi Arabia is
+                                becoming
+                                an investment powerhouse—a
+                                transformation supported by its flourishing financial services industry and rapidly
+                                expanding private sector. Read more
+                            </p>
+                        </div>
                     </div>
-                </div>
-                <div class="border mb-3">
-                    <img class="img-fluid border" src="img/capture5.PNG" alt="qualifying">
-                    <div class="p-4 mb-2">
-                        <a class="font-weight-bold" href="#">
-                            Have You Thought About A Career In Law? If So, Where Should You Get Qualified?
-                        </a>
-                        <p>
-                            The rewards for a career in the legal profession are many and varied,
-                            and demand for lawyers is high. So which schools produce the best lawyers?
-                        </p>
+                    <div class="border col-lg-12 col-md-7 mb-3">
+                        <img class="img-fluid" src="img/capture5.PNG" alt="qualifying">
+                        <div class="p-4 mb-2">
+                            <a class="font-weight-bold" href="#">
+                                Have You Thought About A Career In Law? If So, Where Should You Get Qualified?
+                            </a>
+                            <p>
+                                The rewards for a career in the legal profession are many and varied,
+                                and demand for lawyers is high. So which schools produce the best lawyers?
+                            </p>
+                        </div>
                     </div>
-                </div>
-                <div class="border mb-3">
-                    <img class="img-fluid border" src="img/capture6.PNG" alt="backers">
-                    <div class="p-4">
-                        <a class="font-weight-bold" href="#">
-                            Good Journalists Are More Important Than Ever in 2020
-                        </a>
-                        <p>
-                            The world desperately needs sharp, incisive and capable journalists to cut through the noise
-                            with
-                            measured and nuanced takes on today's pressing issues.
-                            For these looking to find their voices, an education at a leading journalism school is
-                            invaluable.
-                        </p>
+                    <div class="border col-lg-12 col-md-7 mb-3">
+                        <img class="border" src="img/capture6.PNG" alt="backers">
+                        <div class="p-4">
+                            <a class="font-weight-bold" href="#">
+                                Good Journalists Are More Important Than Ever in 2020
+                            </a>
+                            <p>
+                                The world desperately needs sharp, incisive and capable journalists to cut through the
+                                noise
+                                with
+                                measured and nuanced takes on today's pressing issues.
+                                For these looking to find their voices, an education at a leading journalism school is
+                                invaluable.
+                            </p>
+                        </div>
                     </div>
                 </div>
             </div>
@@ -445,7 +460,7 @@
         <br>
         <div class="container-fluid">
             <div class="row">
-                <div class="col-sm-3">
+                <div class="col-md-3 col-sm-12">
                     <div class="mb-3 bg-secondary">
                         <img class="img-fluid" src="img/Capture7.PNG" alt="capture" />
                         <a class="container-fluid text-center pr-5 pl-5 font-weight-bold" href="#">
@@ -465,7 +480,8 @@
                         </div>
                     </div>
                 </div>
-                <div class="col-sm">
+                
+                <div class="col-md col-sm-12">
                     <h6 class="text-center font-weight-bold"><span>N</span> IN THE MAGAZINE</h6>
                     <hr>
                     <div class="container-fluid">
@@ -496,7 +512,7 @@
                                     </div>
                                 </div>
                             </div>
-                            <div class="col-sm">
+                            <div class="col-md col-sm-12">
                                 <div class="mb-3">
                                     <img class="img-fluid mb-2" src="img/Capture11.PNG" alt="capture" />
                                     <h6 class="font-weight-bold">
@@ -522,7 +538,7 @@
                                     </div>
                                 </div>
                             </div>
-                            <div class="col-sm">
+                            <div class="col-md col-sm-12">
                                 <div class="mb-3">
                                     <img class="img-fluid mb-2" src="img/Capture14.PNG" alt="capture" />
                                     <h6 class="font-weight-bold">
@@ -555,7 +571,7 @@
             <hr>
             <div class="container-fluid">
                 <div class="row">
-                    <div class="col-sm">
+                    <div class="col-lg-3 col-md-6 col-sm-12">
                         <div class="section-child-2">
                             <img src="img/navy-medicine-san-diego.webp" class="img-fluid" alt="medecine">
                             <div class="mb-2">
@@ -585,7 +601,7 @@
                             </p>
                         </div>
                     </div>
-                    <div class="col-sm">
+                    <div class="col-lg-3 col-md-6 col-sm-12">
                         <div class="section-child-2">
                             <img class="img-fluid"
                                 src="img/coronavirus-diamond-princess-cruise-ship-japan-yokohama.webp"
@@ -679,7 +695,7 @@
         <hr>
         <div class="container-fluid">
             <div class="row">
-                <div class="col-sm">
+                <div class="col-md col-sm-12">
                     <img class="img-fluid mb-2" src="img/tozeur-tunisia.webp" alt="tozeur-tunisia" />
                     <div class="mb-2">
                         <a class="font-weight-bold" href="#">
@@ -694,7 +710,7 @@
                         </a>
                     </div>
                 </div>
-                <div class="col-sm">
+                <div class="col-md col-sm-12">
                     <img class="img-fluid mb-2" src="img/eyjafjallajokull-iceland.webp"
                         alt="eyjafjallajokull-iceland" />
                     <div class="mb-2">
@@ -709,7 +725,8 @@
                         </a>
                     </div>
                 </div>
-                <div class="col-sm">
+                
+                <div class="col-md col-sm-12">
                     <img class="img-fluid mb-2" src="img/lipschutz-living-room-hotel-chelsea.webp"
                         alt="lipschutz-living-room-hotel-chelsea" />
                     <div class="mb-2">
@@ -733,7 +750,7 @@
         </h6>
         <div class="container-fluid">
             <div class="row">
-                <div class="col-sm">
+                <div class="col-md col-sm-12">
                     <img class="img-fluid mb-2" src="img/infant-carriers-recall.webp" alt="infant-carriers-recall" />
                     <div class="mb-2">
                         <a class="font-weight-bold" href="#">
@@ -741,7 +758,7 @@
                         </a>
                     </div>
                 </div>
-                <div class="col-sm">
+                <div class="col-md col-sm-12">
                     <img class="img-fluid mb-2" src="img/tornado-dodge-city-kansas-2016.webp"
                         alt="tornado-dodge-city-kansas-2016" />
                     <div class="mb-2">
@@ -750,7 +767,7 @@
                         </a>
                     </div>
                 </div>
-                <div class="col-sm">
+                <div class="col-md col-sm-12">
                     <div class="next-img next2-img">
                         <img class="pull-left pr-3" src="img/jaime-harrison-fox-24-mugshot.webp"
                             alt="jaime-harrison-fox-24-mugshot">
@@ -758,6 +775,8 @@
                             Fox Affiliate Apologizes for Using Mug Shot in Story About Senate Candidate
                         </a>
                     </div>
+                    <br>
+                    <br>
                     <br>
                     <hr>
                     <div class="next-img next2-img">
@@ -767,6 +786,8 @@
                         </a>
                         <br>
                     </div>
+                    <br>
+                    <br>
                     <br>
                     <hr>
                     <div class="next-img next2-img">
@@ -784,7 +805,7 @@
             </h6>
             <div class="container-fluid">
                 <div class="row">
-                    <div class="col-sm">
+                    <div class="col-md col-sm-12">
                         <img class="img-fluid mb-2" src="img/stray-kids-nyc-people-now-2020.webp"
                             alt="stray-kids-nyc-people-now-2020" />
                         <div class="mb-2">
@@ -793,7 +814,7 @@
                             </a>
                         </div>
                     </div>
-                    <div class="col-sm">
+                    <div class="col-md col-sm-12">
                         <img class="img-fluid mb-2" src="img/britains-prince-andrew.webp"
                             alt="britains-prince-andrew" />
                         <div class="mb-2">
@@ -802,7 +823,7 @@
                             </a>
                         </div>
                     </div>
-                    <div class="col-sm">
+                    <div class="col-md col-sm-12">
                         <div class="next-img next2-img">
                             <img class="pull-left pr-3" src="img/afghanistan-khost-province-us-military-helicopter.webp"
                                 alt="afghanistan-khost-province-us-military-helicopter">
@@ -812,6 +833,7 @@
                         </div>
                         <br>
                         <br>
+                        <br>
                         <hr>
                         <div class="next-img next2-img">
                             <img class="pull-left pr-3" src="img/scooter-ground-front-parked-car.webp"
@@ -819,6 +841,8 @@
                             <a href="#" class="font-weight-bold">
                                 11-Year-Old Girl Fends Off Pedophile Policeman by Beating Him With Scooter
                             </a>
+                            <br>
+                            <br>
                             <br>
                         </div>
                         <br>
@@ -837,7 +861,7 @@
             </div>
             <div class="container-fluid">
                 <div class="row">
-                    <div class="col-sm">
+                    <div class="col-md col-sm-12">
                         <h6>
                             <span class="font-weight-bold" id="different">SUBSCRIBE</span>
                         </h6>
@@ -861,13 +885,13 @@
 
                         </div>
                     </div>
-                    <div class="col-sm-4">
+                    <div class="col-md-5 col-sm-12">
                         <h6>
                             <span class="font-weight-bold" id="different">NEWSLETTER</span>
                         </h6>
                         <div class="border div-height">
                             <div class="next-img next2-img">
-                                <img class="pull-left pr-3" src="img/Capture15.PNG"
+                                <img id="last-img" class="pull-left pr-3" src="img/Capture15.PNG"
                                     alt="us-military-nuclear-missile-test-launch">
 
                                 <a href="#" class="font-weight-bold">

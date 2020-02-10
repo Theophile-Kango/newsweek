@@ -5,6 +5,11 @@ header{
     background:  #ff0500;
     display: flex;
     justify-content: center;
+    height: 100px;
+}
+header img{
+    height: 80px !important;
+    object-fit: contain;
 }
 header nav{
     display: flex;
@@ -36,7 +41,7 @@ nav a i{
     margin-left: 0.7rem;
 }
 
-nav a:hover, nav a i:hover{
+nav a:hover{
     color: #ff0500 !important;
     text-decoration: none;
 }
@@ -44,7 +49,7 @@ footer a{
     color: gray !important;
     font-size: 0.8rem !important;
 }
-footer a:hover{
+footer a:hover, nav a i:hover{
     color: black !important;
     text-decoration: none;
 }
@@ -83,6 +88,15 @@ div a, .next-img a, .second-next-img {
     text-decoration: none;
     color: #ff0500;
 }
+.next3-img{
+    position: relative;
+    height: 70px;
+}
+.next3-img img{
+    height: 100%;
+    object-fit: cover;
+    position: relative;
+}
 div a:hover, .next-img a:hover {
     color: black;
     text-decoration-color: #ff0500;
@@ -94,11 +108,9 @@ div a:hover, .next-img a:hover {
     height: 500px;
 }
 .section-child-2{
-    height: 400px;
+    height: 420px;
 }
-.next2-img img{
-    width: 40%;
-}
+
 .next2-img a{
     font-size: 0.8rem;
 }
@@ -136,4 +148,6 @@ h6 #different{
     height: 220px;
 }
 
-
+#last-img{
+    height: 220px !important;
+}
