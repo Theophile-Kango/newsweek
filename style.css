@@ -1,153 +1,183 @@
-html{
-    overflow-x:hidden;
-}
-header{
-    background:  #ff0500;
-    display: flex;
-    justify-content: center;
-    height: 100px;
-}
-header img{
-    height: 80px !important;
-    object-fit: contain;
-}
-header nav{
-    display: flex;
-    flex-direction: row;
-}
-header button{
-    height: 2rem;
-    margin-left: 1rem;
-    margin-bottom: 0.3rem;
+html {
+  overflow-x: hidden;
 }
 
-button{
-    border-radius: 0 !important;
+header {
+  background: #ff0500;
+  display: flex;
+  justify-content: center;
+  height: 100px;
 }
 
-nav{
-    height: 60px;
+header img {
+  height: 80px !important;
+  object-fit: contain;
 }
 
-nav a{
-    padding-right: 0.5rem;
-    font-size: 1rem !important;
-    margin: 0 !important;
-    color: black;
-}
-nav a i{
-    font-size: 1.5rem;
-    color: grey;
-    margin-left: 0.7rem;
+nav {
+  height: 60px;
 }
 
-nav a:hover{
-    color: #ff0500 !important;
-    text-decoration: none;
-}
-footer a{
-    color: gray !important;
-    font-size: 0.8rem !important;
-}
-footer a:hover, nav a i:hover{
-    color: black !important;
-    text-decoration: none;
-}
-.input-group{
-    position: relative;
-    bottom: 35px;
-    left: 860px;
-}
-.input-group span{
-    position: absolute;
-    top: 10px;
-    left: 65px;
-}
-.input-group input{
-    width: 85px;
-}
-.input-group input:focus{
-    position: relative;
-    right: 860px;
-    width: 950px;
-}
-.semi-div{
-    font-size: 0.8rem;
-    color: black;
-}
-div a, .next-img a, .second-next-img {
-    font-size: 1.2rem;
-    line-height: 1rem;
-    color: black;
-}
-.second-next-img{
-    font-size: 0.8rem;
-    line-height: 1rem;
-}
-.second-next-img:hover{
-    text-decoration: none;
-    color: #ff0500;
-}
-.next3-img{
-    position: relative;
-    height: 70px;
-}
-.next3-img img{
-    height: 100%;
-    object-fit: cover;
-    position: relative;
-}
-div a:hover, .next-img a:hover {
-    color: black;
-    text-decoration-color: #ff0500;
-}
-.container-content-x{
-    background: #f4f5f7;
-}
-.section-child{
-    height: 500px;
-}
-.section-child-2{
-    height: 420px;
+header nav {
+  display: flex;
+  flex-direction: row;
 }
 
-.next2-img a{
-    font-size: 0.8rem;
-}
-h6 span{
-    background: #ff0500;
-    padding: 0.2rem;
-    color: white;
-}
-h6 .different{
-    background: white;
-    color: #ff0500;
-}
-#above{
-    position: absolute;
-    top: 90px;
-    left: 100px;
-}
-.before-footer{
-    background: #ff0500;
-    border: none;
-    color: white;
-    cursor: pointer;
-}
-.images{
-    width: 16% !important;
-
+button {
+  border-radius: 0 !important;
 }
 
-.myclass{
-    width: 90%; 
-    position: relative;
-    left: 60px;
-}
-.div-height{
-    height: 220px;
+header button {
+  height: 2rem;
+  margin-left: 1rem;
+  margin-bottom: 0.3rem;
 }
 
-#last-img{
-    height: 220px !important;
+nav a {
+  padding-right: 0.5rem;
+  font-size: 1rem !important;
+  margin: 0 !important;
+  color: black;
+}
+
+nav a i {
+  font-size: 1.5rem;
+  color: grey;
+  margin-left: 0.7rem;
+}
+
+footer a {
+  color: gray !important;
+  font-size: 0.8rem !important;
+}
+
+div a,
+.next-img a,
+.second-next-img {
+  font-size: 1.2rem;
+  line-height: 1rem;
+  color: black;
+}
+
+.next2-img a {
+  font-size: 0.8rem;
+}
+
+nav a:hover {
+  color: #ff0500 !important;
+  text-decoration: none;
+}
+
+footer a:hover,
+nav a i:hover {
+  color: black !important;
+  text-decoration: none;
+}
+
+.input-group {
+  position: relative;
+  bottom: 35px;
+  left: 860px;
+}
+
+h6 span {
+  background: #ff0500;
+  padding: 0.2rem;
+  color: white;
+}
+
+.input-group span {
+  position: absolute;
+  top: 10px;
+  left: 65px;
+}
+
+.input-group input {
+  width: 85px;
+}
+
+.input-group input:focus {
+  position: relative;
+  right: 860px;
+  width: 950px;
+}
+
+.semi-div {
+  font-size: 0.8rem;
+  color: black;
+}
+
+.second-next-img {
+  font-size: 0.8rem;
+  line-height: 1rem;
+}
+
+.second-next-img:hover {
+  text-decoration: none;
+  color: #ff0500;
+}
+
+.next3-img {
+  position: relative;
+  height: 70px;
+}
+
+.next3-img img {
+  height: 100%;
+  object-fit: cover;
+  position: relative;
+}
+
+div a:hover,
+.next-img a:hover {
+  color: black;
+  text-decoration-color: #ff0500;
+}
+
+.container-content-x {
+  background: #f4f5f7;
+}
+
+.section-child {
+  height: 500px;
+}
+
+.section-child-2 {
+  height: 420px;
+}
+
+h6 .different {
+  background: white;
+  color: #ff0500;
+}
+
+#above {
+  position: absolute;
+  top: 90px;
+  left: 100px;
+}
+
+.before-footer {
+  background: #ff0500;
+  border: none;
+  color: white;
+  cursor: pointer;
+}
+
+.images {
+  width: 16% !important;
+}
+
+.myclass {
+  width: 90%;
+  position: relative;
+  left: 60px;
+}
+
+.div-height {
+  height: 220px;
+}
+
+#last-img {
+  height: 220px !important;
 }
