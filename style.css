@@ -124,13 +124,17 @@ h6 span {
 
 .next3-img {
   position: relative;
-  height: 70px;
+  height: 200px;
 }
 
 .next3-img img {
   height: 100%;
   object-fit: cover;
   position: relative;
+}
+
+.next-img {
+  margin-bottom: 120px;
 }
 
 div a:hover,
@@ -185,4 +189,27 @@ h6 .different {
 
 #last-img {
   height: 220px !important;
+}
+
+@media (max-width: 576px) {
+  header {
+    height: 60px !important;
+  }
+
+  header img,
+  .header-text,
+  header a i {
+    position: relative;
+    bottom: 30px;
+    width: 80% !important;
+  }
+
+  .header-text a,
+  .header-text button {
+    font-size: 0.9rem !important;
+  }
+
+  .header-top {
+    height: 100%;
+  }
 }
