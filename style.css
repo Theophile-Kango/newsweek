@@ -1,5 +1,7 @@
-html {
-  overflow-x: hidden;
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
 }
 
 header {
@@ -16,6 +18,9 @@ header img {
 
 nav {
   height: 60px;
+  width: 100%;
+  box-sizing: border-box;
+  overflow:hidden;
 }
 
 header nav {
