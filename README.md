@@ -10,7 +10,7 @@ Building a web page that is similar to the newsweek web page with responsive web
 
 ## Live Demo
 
-[Live Demo](https://raw.githack.com/Theophile-Kango/newsweek/feature/index.html)
+[Live Demo](https://theophile-kango.github.io/newsweek/)
 
 ## Getting Started
 
