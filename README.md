@@ -21,13 +21,15 @@ To get a local copy up and running follow these simple example steps.
 
 ## Author
 
-Github:  @Theophile-Kango
-Twitter: @Theophadh
-Linkedin: https://www.linkedin.com/in/theophile-kango-b6b580194/
+👤 **Theophile Kango**
+
+- Github: [@githubhandle](https://github.com/Theophile-Kango)
+- Twitter: [@twitterhandle](https://twitter.com/Theophadh)
+- Linkedin: [linkedin](https://www.linkedin.com/in/theophile-kango-b6b580194/)
 
 ## 🤝 Contributing
 
-Feel free to check the [issues page](https://github.com/Buyaki01/signUpForm/issues).
+Feel free to check the [issues page](https://github.com/Theophile-Kango/newsweek/issues).
 
 ## Show your support
 
