@@ -1,6 +1,5 @@
 # newsweek
 
-# What it does
 Building a web page that is similar to the newsweek web page with responsive web design
 
 ## Built With
@@ -8,9 +7,13 @@ Building a web page that is similar to the newsweek web page with responsive web
 - CSS/Bootstrap 4
 #### and deployed to Github
 
+## Screenshort
+
+![newsweek](img/screenshort.png)
+
 ## Live Demo
 
-[Live Demo](https://raw.githack.com/Theophile-Kango/newsweek/feature/index.html)
+[Live Demo](https://theophile-kango.github.io/newsweek/)
 
 ## Getting Started
 
@@ -19,11 +22,12 @@ To get a local copy up and running follow these simple example steps.
 - `cd` into the project directory
 - Open up index.html in your browser to view the project
 
-## Author
 
-Github:  @Theophile-Kango
-Twitter: @Theophadh
-Linkedin: https://www.linkedin.com/in/theophile-kango-b6b580194/
+👤  **Theophile Kango**
+
+- Github: [@githubhandle](https://github.com/Theophile-Kango)
+- Twitter: [@twitterhandle](https://twitter.com/Theophadh)
+- Linkedin: [linkedin](https://www.linkedin.com/in/theophile-kango)
 
 ## 🤝 Contributing
 
