@@ -1,11 +1,13 @@
+[![hire-badge](https://img.shields.io/badge/Consult%20/%20Hire%20Theophile-Click%20to%20Contact-brightgreen)](mailto:fadhili.kango@gmail.com ) [![Twitter Follow](https://img.shields.io/twitter/follow/Theophadh?label=Follow%20Theophile%20on%20Twitter&style=social)](https://twitter.com/Theophadh)
+
 # newsweek
 
 Building a web page that is similar to the newsweek web page with responsive web design
 
 ## Built With
+
 - HTML
 - CSS/Bootstrap 4
-#### and deployed to Github
 
 ## Screenshort
 
@@ -31,7 +33,7 @@ To get a local copy up and running follow these simple example steps.
 
 ## 🤝 Contributing
 
-Feel free to check the [issues page](https://github.com/Buyaki01/signUpForm/issues).
+Feel free to check the [issues page](https://github.com/Theophile-Kango/newsweek/issues).
 
 ## Show your support
 
